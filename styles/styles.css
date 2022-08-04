@@ -595,6 +595,11 @@ footer a:hover, footer a:focus {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .navBar .slideOutNav {
+    font-family: "Young Serif";
+    font-size: 30px;
+    font-size: 1.5rem;
+  }
   .navBar .logo {
     margin: 7px 0 12px;
   }

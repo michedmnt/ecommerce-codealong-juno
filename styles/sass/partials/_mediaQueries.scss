@@ -36,6 +36,11 @@
             flex-direction: column;
         }
 
+    .slideOutNav {
+        font-family: $primaryFont;
+        @include fontSize(30);
+    }
+
         .logo {
             margin: 7px 0 12px;
         }
@@ -61,6 +66,5 @@
         ul {
             margin-bottom: 50px;
         }
-
     }
 }
