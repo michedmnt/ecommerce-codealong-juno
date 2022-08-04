@@ -557,3 +557,72 @@ footer a {
 footer a:hover, footer a:focus {
   color: #fff;
 }
+
+@media (max-width: 1000px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .headerImgContainer {
+    width: 100%;
+  }
+  header .headerContentContainer {
+    width: 100%;
+    padding: 30px 90px 40px;
+  }
+  footer .footFlexContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .footFlexContainer h4 {
+    margin-bottom: 50px;
+  }
+  footer .footerNav {
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  .navBar .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navBar .logo {
+    margin: 7px 0 12px;
+  }
+  .categoryGallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .categoryGallery .item {
+    width: 100%;
+  }
+  .play {
+    padding: 0;
+  }
+  .footerNav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footerNav .footerShop,
+.footerNav .footerAbout,
+.footerNav .footerTemp {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
