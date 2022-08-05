@@ -430,6 +430,11 @@ a.secondaryButton:hover, a.secondaryButton:focus {
           flex-direction: column;
   z-index: 20;
   left: -450px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.slideOutNav.open {
+  left: 0;
 }
 .slideOutNav button {
   -ms-flex-item-align: end;
